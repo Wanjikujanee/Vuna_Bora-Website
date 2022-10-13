@@ -260,7 +260,11 @@ html {
   background: #E0E5EC;
   display: inline-flex;
   width:100%;
-  height: 17rem;
+  height: 20rem;
+  font-weight: 50%;
+  padding: left 24px; 
+  padding: 30px;
+  
 }
 .skill1 {
   padding: 2.5rem 0;
@@ -342,6 +346,7 @@ html {
 }
 .about-scroll{
   width: 100%;
+  height: 50rem;
   display: block;
   transition: 0.5s;
   border-radius: 1rem;
@@ -397,19 +402,22 @@ html {
 .about-text {
   margin: 1rem 0;
   max-width: 26rem;
+  max-height: -30rem;
   color: black;
   font-family: RalewayELimport;
+  
 }
 
 .about{
   background-color: #E0E5EC;
+  height: -50rem;
 }
 
 .about-img,
 .about-info {
   float: left;
   width: 50%;
-  padding: 2rem;
+  padding: 8rem;
   background-color: #e1ece0;
 }
 .new-division {
@@ -461,6 +469,7 @@ label{
     url("svg/maize.jpg") center/cover no-repeat;
   position: relative;
   background-attachment: fixed;
+  height: 15rem;
 }
 .menu-title {
   font-family: SpartanLimport;
@@ -503,6 +512,9 @@ label{
   padding: 2rem;  
   height: 420px;
   z-index: 2;
+
+  padding-left: 10rem;
+
 }
 .menu-flip-card {
   background-color: transparent;
@@ -513,8 +525,8 @@ label{
 }
 .menu-flip-card-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 120%;
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
@@ -527,9 +539,12 @@ label{
 }
 .menu-flip-card-front, .menu-flip-card-back {
   position: absolute;
-  width: 100%;
+  width: 120%;
   height: 100%;
   backface-visibility: hidden;
+  align-self: center;
+  
+  
 }
 .menu-flip-card-front {
   background: #f5f6f6;
@@ -748,6 +763,17 @@ img {vertical-align: middle;}
   font: normal 16px sans-serif;
   padding: 60px 60px;
   color: #ffff;
+  
+  
+}
+.howitworks{
+  text-align: center;
+  margin-top: 10%;
+  font-weight: bolder;
+  /* font-size: x-large; */
+  color: #15d004;
+  font-family: SpartanLimport;
+  font-size: 40px;
   
 }
 
